@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		109B02311B27A8FD52894320 /* Pods_gameWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2D5044D4A67A69F2F0D826 /* Pods_gameWords.framework */; };
+		2D39AE1122638DBB00B7B061 /* ListOpponentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D39AE1022638DBB00B7B061 /* ListOpponentsViewController.swift */; };
 		9B80229A223D86050008FC5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B802299223D86050008FC5A /* AppDelegate.swift */; };
 		9B80229C223D86050008FC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B80229B223D86050008FC5A /* ViewController.swift */; };
 		9B80229F223D86050008FC5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B80229D223D86050008FC5A /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D39AE1022638DBB00B7B061 /* ListOpponentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOpponentsViewController.swift; sourceTree = "<group>"; };
 		79490A98E4BEB3E2F7E85FE5 /* Pods-gameWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameWords.release.xcconfig"; path = "Target Support Files/Pods-gameWords/Pods-gameWords.release.xcconfig"; sourceTree = "<group>"; };
 		7F2D5044D4A67A69F2F0D826 /* Pods_gameWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gameWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		814AA2DAC9C875CAD4C4314A /* Pods-gameWords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameWords.debug.xcconfig"; path = "Target Support Files/Pods-gameWords/Pods-gameWords.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				9B8022AE223D93440008FC5A /* SignUpViewController.swift */,
 				9B8022B0223D934E0008FC5A /* LoginViewController.swift */,
 				9BA7DDD7224BDEB500B6D103 /* HomeViewController.swift */,
+				2D39AE1022638DBB00B7B061 /* ListOpponentsViewController.swift */,
 			);
 			path = gameWords;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA7DDD8224BDEB500B6D103 /* HomeViewController.swift in Sources */,
+				2D39AE1122638DBB00B7B061 /* ListOpponentsViewController.swift in Sources */,
 				9B8022B1223D934E0008FC5A /* LoginViewController.swift in Sources */,
 				9B8022AF223D93440008FC5A /* SignUpViewController.swift in Sources */,
 				9B80229C223D86050008FC5A /* ViewController.swift in Sources */,

@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.swift
 //  gameWords
 //
@@ -42,6 +42,9 @@ class ViewController: UIViewController {
 //        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 //        let loggedInVC: HomeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
 //        self.present(loggedInVC, animated: false, completion: nil)
+    }
+    func presentMainWindowScreen(){
+        performSegue(withIdentifier: "toHome", sender: self)
     }
     
     func setDesign() {

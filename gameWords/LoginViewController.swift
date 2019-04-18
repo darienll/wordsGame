@@ -76,6 +76,12 @@ class LoginViewController: UIViewController {
         let loggedInVC: HomeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
         self.present(loggedInVC, animated: true, completion: nil)
     }
+    
+    func presentMainWindowScreen(){
+        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loggedInVC: ListOpponentsViewController = storyboard.instantiateViewController(withIdentifier: "ListOpponentsViewController") as! ListOpponentsViewController
+        self.present(loggedInVC, animated: true, completion: nil)
+    }
    
     
 
