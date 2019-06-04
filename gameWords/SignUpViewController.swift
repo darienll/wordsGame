@@ -20,6 +20,8 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var rePassword: UITextField!
     
+    @IBOutlet weak var errorLabel: UILabel!
+    
     @IBOutlet weak var signUp: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,7 +78,12 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     @IBAction func handleSignUp(_ sender: Any) {
         guard let username = username.text else { return }
         guard let password = password.text else { return }
+        guard let rePassword = rePassword.text else { return }
         guard let email = email.text else { return }
+        if (password != rePassword) {
+            errorLabel.text = "Your passwords aren't equal"
+            return
+        }
         
         var button = sender as? UIButton
         button?.isEnabled = false
@@ -89,7 +96,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
                 changeRequest?.commitChanges { error in
                     if error == nil {
                         print("User display name changed!")
+//                        self.dismiss(animated: false, completion: nil)
                         self.dismiss(animated: false, completion: nil)
+                        self.presentLoggedInScreen()
                     }
                 }
             }
@@ -101,6 +110,17 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         
         
 
+    }
+    func presentLoggedInScreen(){
+        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loggedInVC: HomeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        self.present(loggedInVC, animated: true, completion: nil)
+    }
+    
+    func presentMainWindowScreen(){
+        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let loggedInVC: ListOpponentsViewController = storyboard.instantiateViewController(withIdentifier: "ListOpponentsViewController") as! ListOpponentsViewController
+        self.present(loggedInVC, animated: true, completion: nil)
     }
     
 

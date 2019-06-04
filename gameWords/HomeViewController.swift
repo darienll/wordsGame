@@ -15,8 +15,12 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var username: UILabel!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated:true);
+        username.text = Auth.auth().currentUser?.displayName
+
         let url = URL(string: "http://127.0.0.1:8000/userlists/")
         let task = URLSession.shared.dataTask(with: url!) {
             (data, response, error) in
