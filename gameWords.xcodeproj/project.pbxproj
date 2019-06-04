@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		109B02311B27A8FD52894320 /* Pods_gameWords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2D5044D4A67A69F2F0D826 /* Pods_gameWords.framework */; };
 		2D39AE1122638DBB00B7B061 /* ListOpponentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D39AE1022638DBB00B7B061 /* ListOpponentsViewController.swift */; };
+		50760F1E22A61C5D00A07291 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50760F1D22A61C5D00A07291 /* InfoViewController.swift */; };
+		50760F2022A61CA000A07291 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50760F1F22A61CA000A07291 /* InfoTableViewCell.swift */; };
+		50760F2222A61D6C00A07291 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50760F2122A61D6C00A07291 /* DetailViewController.swift */; };
 		9B697BB8229281CA005BCBFA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B697BB7229281CA005BCBFA /* CustomCell.swift */; };
 		9B80229A223D86050008FC5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B802299223D86050008FC5A /* AppDelegate.swift */; };
 		9B80229C223D86050008FC5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B80229B223D86050008FC5A /* ViewController.swift */; };
@@ -28,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		2D39AE1022638DBB00B7B061 /* ListOpponentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOpponentsViewController.swift; sourceTree = "<group>"; };
+		50760F1D22A61C5D00A07291 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		50760F1F22A61CA000A07291 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		50760F2122A61D6C00A07291 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		79490A98E4BEB3E2F7E85FE5 /* Pods-gameWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameWords.release.xcconfig"; path = "Target Support Files/Pods-gameWords/Pods-gameWords.release.xcconfig"; sourceTree = "<group>"; };
 		7F2D5044D4A67A69F2F0D826 /* Pods_gameWords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gameWords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		814AA2DAC9C875CAD4C4314A /* Pods-gameWords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gameWords.debug.xcconfig"; path = "Target Support Files/Pods-gameWords/Pods-gameWords.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +116,9 @@
 				9B8022AB223D893D0008FC5A /* GoogleService-Info.plist */,
 				9B802299223D86050008FC5A /* AppDelegate.swift */,
 				9B80229B223D86050008FC5A /* ViewController.swift */,
+				50760F1D22A61C5D00A07291 /* InfoViewController.swift */,
+				50760F1F22A61CA000A07291 /* InfoTableViewCell.swift */,
+				50760F2122A61D6C00A07291 /* DetailViewController.swift */,
 				9B80229D223D86050008FC5A /* Main.storyboard */,
 				9B8022A0223D86080008FC5A /* Assets.xcassets */,
 				9B8022A2223D86080008FC5A /* LaunchScreen.storyboard */,
@@ -301,7 +310,10 @@
 				9B697BB8229281CA005BCBFA /* CustomCell.swift in Sources */,
 				9B8022AF223D93440008FC5A /* SignUpViewController.swift in Sources */,
 				9B80229C223D86050008FC5A /* ViewController.swift in Sources */,
+				50760F1E22A61C5D00A07291 /* InfoViewController.swift in Sources */,
 				9BF2B27122A401E200F72F4C /* CustomCell2.swift in Sources */,
+				50760F2022A61CA000A07291 /* InfoTableViewCell.swift in Sources */,
+				50760F2222A61D6C00A07291 /* DetailViewController.swift in Sources */,
 				9B80229A223D86050008FC5A /* AppDelegate.swift in Sources */,
 				9BAE78E62291771C007C29D9 /* GameController.swift in Sources */,
 			);
